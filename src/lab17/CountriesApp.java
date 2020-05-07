@@ -69,6 +69,7 @@ public class CountriesApp {
 		}
 	}
 	
+	//method is from GC example
 	public static List<String> readLinesOfFile() {
 		try {
 			return Files.readAllLines(filePath);
@@ -79,6 +80,7 @@ public class CountriesApp {
 		}
 	}
 	
+	//method is from GC example
 	public static void appendLineToFile(String line) {
 		List<String> lines = Collections.singletonList(line);
 
